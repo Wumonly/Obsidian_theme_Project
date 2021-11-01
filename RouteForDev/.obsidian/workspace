@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "0b1fac58e1a5e825",
+    "type": "split",
+    "children": [
+      {
+        "id": "82748f6c04e5bee1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2021-11-01.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cfbb336da516436e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2a9fd6fd52436dc",
+        "type": "tabs",
+        "dimension": 64.01960784313725,
+        "children": [
+          {
+            "id": "35786af040ee0e91",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "44859a78700fe37a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "309ebdecef32a7d6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "9af6dbbb02cd28d2",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "a23a52f8bf47a949",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2021-11-01.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ce92c1af8e6d93ea",
+        "type": "tabs",
+        "dimension": 35.98039215686274,
+        "children": [
+          {
+            "id": "c20afbe940742ae8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 208
+  },
+  "right": {
+    "id": "232977fe2467a125",
+    "type": "split",
+    "children": [
+      {
+        "id": "050d7771d9bb93fa",
+        "type": "tabs",
+        "dimension": 45.9016393442623,
+        "children": [
+          {
+            "id": "b2601ed63c75f7a9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "2021-11-01.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5087618855792589,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "e1555029df8ff77d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f56a2c19018248e3",
+        "type": "tabs",
+        "dimension": 54.09836065573771,
+        "children": [
+          {
+            "id": "658927b0afa85dd2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2021-11-01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c2e05d26e5f70b83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2021-11-01.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "82748f6c04e5bee1",
+  "lastOpenFiles": [
+    "2021-11-01.md",
+    "未命名.md",
+    "未命名 1.md",
+    "00Template/未命名.md",
+    "00Template/通用模板.md",
+    "00Template/空白模板.md",
+    "00Attachments/10_教程_流程图绘制_mermaid.md",
+    "hello.md",
+    "04-JavaScript基础/00-编程语言.md",
+    "【长文慎入】通信十年—通信行业分析与跳槽之路.md"
+  ]
+}

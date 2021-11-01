@@ -1,0 +1,19 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "60Ajax/media",
+  "newFileLocation": "current",
+  "showFrontmatter": false,
+  "alwaysUpdateLinks": true,
+  "foldHeading": true,
+  "strictLineBreaks": false,
+  "fileSortOrder": "alphabetical",
+  "defaultViewMode": "source",
+  "showLineNumber": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "vimMode": false
+}

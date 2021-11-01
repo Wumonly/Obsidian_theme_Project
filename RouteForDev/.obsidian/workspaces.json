@@ -1,0 +1,669 @@
+{
+  "workspaces": {
+    "布局1": {
+      "main": {
+        "id": "5eba4565f3cc01f1",
+        "type": "split",
+        "children": [
+          {
+            "id": "2dee71ab9cb164a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "template/计算机组成原理模板.md",
+                "mode": "preview"
+              }
+            },
+            "group": "57a43b74ea0f91e9"
+          },
+          {
+            "id": "9cb847cac5c60c10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "template/计算机组成原理模板.md",
+                "mode": "source"
+              }
+            },
+            "group": "57a43b74ea0f91e9"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cfbb336da516436e",
+        "type": "split",
+        "children": [
+          {
+            "id": "f2a9fd6fd52436dc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "35786af040ee0e91",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "44859a78700fe37a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "309ebdecef32a7d6",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "232977fe2467a125",
+        "type": "split",
+        "children": [
+          {
+            "id": "f0f469c6bc5a3007",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "108ced1a514c9804",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "22ba75702bccffde",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a23a52f8bf47a949",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "template/计算机组成原理模板.md"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "f56a2c19018248e3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "658927b0afa85dd2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "template/计算机组成原理模板.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "c20afbe940742ae8",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "c2e05d26e5f70b83",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "template/计算机组成原理模板.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6d41da54e0df2aae",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6386036af53f2e3a",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "active": "2dee71ab9cb164a6"
+    },
+    "日常记录": {
+      "main": {
+        "id": "5eba4565f3cc01f1",
+        "type": "split",
+        "children": [
+          {
+            "id": "feb3ae0dc0e2b8f8",
+            "type": "split",
+            "children": [
+              {
+                "id": "9a5c67ac67159f97",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                },
+                "group": "ebfc2d2cba396dd5"
+              },
+              {
+                "id": "92fcfe9d2865677b",
+                "type": "split",
+                "children": [
+                  {
+                    "id": "459e021042b12413",
+                    "type": "leaf",
+                    "dimension": 36.23898139079334,
+                    "state": {
+                      "type": "localgraph",
+                      "state": {
+                        "options": {
+                          "collapse-filter": true,
+                          "search": "",
+                          "localJumps": 1,
+                          "localBacklinks": true,
+                          "localForelinks": true,
+                          "localInterlinks": false,
+                          "showTags": false,
+                          "showAttachments": false,
+                          "hideUnresolved": false,
+                          "collapse-color-groups": true,
+                          "colorGroups": [],
+                          "collapse-display": true,
+                          "showArrow": false,
+                          "textFadeMultiplier": 0,
+                          "nodeSizeMultiplier": 1,
+                          "lineSizeMultiplier": 1,
+                          "collapse-forces": true,
+                          "centerStrength": 0.518713248970312,
+                          "repelStrength": 10,
+                          "linkStrength": 1,
+                          "linkDistance": 250,
+                          "scale": 0.7132754626224443,
+                          "close": false
+                        }
+                      }
+                    },
+                    "group": "ebfc2d2cba396dd5"
+                  },
+                  {
+                    "id": "b484f5f329a1b86e",
+                    "type": "leaf",
+                    "dimension": 63.761018609206666,
+                    "state": {
+                      "type": "empty",
+                      "state": {}
+                    },
+                    "group": "ebfc2d2cba396dd5"
+                  }
+                ],
+                "direction": "horizontal"
+              }
+            ],
+            "direction": "vertical"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cfbb336da516436e",
+        "type": "split",
+        "children": [
+          {
+            "id": "f2a9fd6fd52436dc",
+            "type": "tabs",
+            "dimension": 68.68884540117418,
+            "children": [
+              {
+                "id": "35786af040ee0e91",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "44859a78700fe37a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "309ebdecef32a7d6",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "ce92c1af8e6d93ea",
+            "type": "tabs",
+            "dimension": 31.31115459882583,
+            "children": [
+              {
+                "id": "cb4cd77ebbfadeac",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 222
+      },
+      "right": {
+        "id": "232977fe2467a125",
+        "type": "split",
+        "children": [
+          {
+            "id": "050d7771d9bb93fa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "096361798c55a192",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "22ba75702bccffde",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a23a52f8bf47a949",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "f56a2c19018248e3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "658927b0afa85dd2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "c20afbe940742ae8",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": false
+                  }
+                }
+              },
+              {
+                "id": "c2e05d26e5f70b83",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6d41da54e0df2aae",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6386036af53f2e3a",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "active": "459e021042b12413"
+    },
+    "笔记1": {
+      "main": {
+        "id": "5eba4565f3cc01f1",
+        "type": "split",
+        "children": [
+          {
+            "id": "feb3ae0dc0e2b8f8",
+            "type": "split",
+            "children": [
+              {
+                "id": "9a5c67ac67159f97",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "template/通用模板.md",
+                    "mode": "preview"
+                  }
+                },
+                "group": "ebfc2d2cba396dd5"
+              },
+              {
+                "id": "92fcfe9d2865677b",
+                "type": "split",
+                "children": [
+                  {
+                    "id": "459e021042b12413",
+                    "type": "leaf",
+                    "dimension": 36.23898139079334,
+                    "state": {
+                      "type": "localgraph",
+                      "state": {
+                        "file": "template/通用模板.md",
+                        "options": {
+                          "collapse-filter": true,
+                          "search": "",
+                          "localJumps": 1,
+                          "localBacklinks": true,
+                          "localForelinks": true,
+                          "localInterlinks": false,
+                          "showTags": false,
+                          "showAttachments": false,
+                          "hideUnresolved": false,
+                          "collapse-color-groups": true,
+                          "colorGroups": [],
+                          "collapse-display": true,
+                          "showArrow": false,
+                          "textFadeMultiplier": 0,
+                          "nodeSizeMultiplier": 1,
+                          "lineSizeMultiplier": 1,
+                          "collapse-forces": true,
+                          "centerStrength": 0.518713248970312,
+                          "repelStrength": 10,
+                          "linkStrength": 1,
+                          "linkDistance": 250,
+                          "scale": 0.7132754626224443,
+                          "close": false
+                        }
+                      }
+                    },
+                    "group": "ebfc2d2cba396dd5"
+                  },
+                  {
+                    "id": "b484f5f329a1b86e",
+                    "type": "leaf",
+                    "dimension": 63.761018609206666,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "template/通用模板.md",
+                        "mode": "source"
+                      }
+                    },
+                    "group": "ebfc2d2cba396dd5"
+                  }
+                ],
+                "direction": "horizontal"
+              }
+            ],
+            "direction": "vertical"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cfbb336da516436e",
+        "type": "split",
+        "children": [
+          {
+            "id": "f2a9fd6fd52436dc",
+            "type": "tabs",
+            "dimension": 68.68884540117418,
+            "children": [
+              {
+                "id": "35786af040ee0e91",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "44859a78700fe37a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "309ebdecef32a7d6",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "ce92c1af8e6d93ea",
+            "type": "tabs",
+            "dimension": 31.31115459882583,
+            "children": [
+              {
+                "id": "cb4cd77ebbfadeac",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 222
+      },
+      "right": {
+        "id": "232977fe2467a125",
+        "type": "split",
+        "children": [
+          {
+            "id": "050d7771d9bb93fa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "096361798c55a192",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "22ba75702bccffde",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a23a52f8bf47a949",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "template/通用模板.md"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "f56a2c19018248e3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "658927b0afa85dd2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "template/通用模板.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "c20afbe940742ae8",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": false
+                  }
+                }
+              },
+              {
+                "id": "c2e05d26e5f70b83",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "template/通用模板.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6d41da54e0df2aae",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6386036af53f2e3a",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "active": "9a5c67ac67159f97"
+    }
+  },
+  "active": "笔记1"
+}

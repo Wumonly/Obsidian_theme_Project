@@ -1,0 +1,29 @@
+{
+  "quickadd:choice:563086dd-aa12-4154-9a17-2cf942342b85": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:runQuickAdd": [],
+  "file-explorer:new-file": [],
+  "quickadd:choice:ea8be512-46c2-45cf-a94b-3b0da78c4290": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:c00ebcb7-06ff-48f0-b824-2f9e088ee658": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ]
+}

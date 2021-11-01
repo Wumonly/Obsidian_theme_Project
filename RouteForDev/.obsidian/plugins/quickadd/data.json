@@ -1,0 +1,189 @@
+{
+  "choices": [
+    {
+      "id": "c00ebcb7-06ff-48f0-b824-2f9e088ee658",
+      "name": "01_ad",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<%*\n\nlet alternativeItems = [ \n    \"✏️ 语法\", \"📘 摘要\", \"📋 example\",\"⚠️ warning\",\"🔥 tip\",\"ℹ️ info\", \"❓ question\",  \"✅ success\", \n     \"❌ fail\", \"🪲 bug\",  \"✍️ quote\", \"💡 comment\", \"😝 LOL\" ,\"python\",\"javascript\",\"HTML\",\"CSS\"\n    ]    \nconst admonitions = [ \n    [\"ad-note\", \"语法\"], [\"ad-abstract\", \"摘要\"],  [\"ad-example\", \"例子\"], [\"ad-warning\", \"注意\"],  [\"ad-tip\", \"技巧\"],  [\"ad-info\", \"资讯\"],[\"ad-question\", \"问题\"],[\"ad-success\", \"完成\"], [\"ad-fail\", \"失败\"], [\"ad-error\", \"错误\"], \n    [\"ad-quote\", \"引用\"], [\"ad-comment\", \"建议\"], [\"ad-LOL\", \"好笑\"],[\"python\",],[\"javascript\",],[\"HTML\",],[\"CSS\",]\n  ];\n\nlet selection = window.getSelection();\nlet choice = await tp.system.suggester(alternativeItems, [ 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]);\n\n\nadmonition = admonitions[choice][0];\ntitle = admonitions[choice][1];\n\n\nconst nl = String.fromCharCode(10);\n\nif (title==undefined) {\n    choice = \"~~~\" + admonition + nl +\n  selection + nl +\n  \"~~~\";\n} else {\n    choice = \"```\" + admonition + nl +\n  \"title: \" + title + nl + selection + nl +\n  \"```\";\n}\n%>\n<% choice %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "ea8be512-46c2-45cf-a94b-3b0da78c4290",
+      "name": "请输入文件名",
+      "type": "Template",
+      "command": true,
+      "templatePath": "00Template/通用模板.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": true
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "37e23be2-7e34-46d5-80c5-ffad95c4908c",
+      "name": "可读URL",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": " <%*\n navigator.clipboard.readText().then(clipText  => navigator.clipboard.writeText(decodeURIComponent(clipText)))\n%>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "8624afd4-34f3-4a15-aeb6-1854823171ab",
+      "name": "testing",
+      "type": "Template",
+      "command": true,
+      "templatePath": "00Template/testing.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [
+    {
+      "name": "JavaScript",
+      "id": "bdb9bff2-06ca-46d0-89a3-033898baeea2",
+      "commands": [
+        {
+          "name": "JS创建文件",
+          "type": "Choice",
+          "id": "4206826c-85cf-417e-b68b-aea24ec0290c",
+          "choiceId": "1a2a6eab-df8a-41f7-a560-d0ddd75acd3c"
+        },
+        {
+          "name": "JS添加信息",
+          "type": "Choice",
+          "id": "c7064185-10ca-4778-a733-0350f6b568d1",
+          "choiceId": "efcb44f6-f28d-4432-a295-34152bed7a43"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "计算机组成原理",
+      "id": "88271a5f-46b0-4509-9e25-79a2e33c8aa4",
+      "commands": [
+        {
+          "name": "CPP创建文件",
+          "type": "Choice",
+          "id": "6d33b0e5-dc03-4018-bb6c-b774fd7770a9",
+          "choiceId": "ba5fa402-deb8-42ca-8311-0fd4f0a74844"
+        },
+        {
+          "name": "CPP插入其他信息",
+          "type": "Choice",
+          "id": "f7058e31-68ff-4d0f-8c57-c0f5bfdc8b0b",
+          "choiceId": "2bbb09a9-2399-459d-87f6-56b6124e42ea"
+        },
+        {
+          "name": "CPP插入标题",
+          "type": "Choice",
+          "id": "acbf562d-8163-4d53-87ef-e75ba29e5add",
+          "choiceId": "3ae25d0d-aa31-486a-87b1-d10aeed80198"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "通用",
+      "id": "66333340-f295-475b-93a3-8874fe6b7d19",
+      "commands": [
+        {
+          "name": "通用_创建文件",
+          "type": "Choice",
+          "id": "21e85542-9467-4841-8388-074de659c4c4",
+          "choiceId": "5a7d0e2a-7a58-4c70-8752-ff24e16a3c4a"
+        },
+        {
+          "name": "通用_添加信息",
+          "type": "Choice",
+          "id": "8bd9b519-a5c1-4e28-969d-79f7d98283a9",
+          "choiceId": "db602307-77e0-47da-8372-75ae7ad4d3ad"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
+}

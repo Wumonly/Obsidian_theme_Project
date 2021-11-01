@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "874c370ad2dd6275",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ff0526bb2d9344c",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0658ee36f7b81132",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4f902ad32104532",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ef929e04bb82355",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e79f0e28cbcd22e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e301197d1c23b8c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a9655fbc39f0bcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56094e5a61dd8161",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1ff0526bb2d9344c",
+  "lastOpenFiles": [
+    "README.md",
+    "ReadMe.md"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "baseFontSize": 17,
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "tag-pills",
+    "auto-fade-control",
+    "tag-flag",
+    "Display H1-H6 instead of # in edit mode"
+  ],
+  "baseFontSizeAction": true,
+  "theme": "moonstone",
+  "translucency": false
+}
